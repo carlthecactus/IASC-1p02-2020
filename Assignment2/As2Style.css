@@ -1,0 +1,49 @@
+
+ul {
+  color: green;
+  font-style: italic;
+}
+
+li {
+  display: inline;
+  font-size: 50px;
+}
+
+p{text-transform: uppercase;
+  font: arial;
+}
+
+img {
+  border: 10px solid black;
+}
+
+.greenText {
+  color: green;
+  font-style: italic;
+}
+
+.Red, .Red2 {
+  color: red;
+}
+
+.Red2 > b{
+  color:blue;
+}
+
+.Fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+}
+
+.Absolute {
+  position: absolute;
+  top: 2100px;
+    left: 200px;
+}
+
+.Relative {
+position: relative;
+left: 300px;
+}
